@@ -20,9 +20,8 @@ if __name__ == "__main__":
         n = int(sys.argv[1])
         conf_file = sys.argv[2]
         for i in range(n):
-            os.system(os.path.abspath(f"./cmake-build-debug/file_reading.exe {conf_file}"))
+            os.system(os.path.abspath(f"./cmake-build-debug/file_reading.exe {conf_file} >> trash.txt"))
         res_lst, time_lst = file_reader("out.txt")
-        print(res_lst, time_lst)
         m = min(time_lst)
         mis = 0.01
         flag = 0
