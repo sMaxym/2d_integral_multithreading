@@ -1,1 +1,1 @@
-# 2d_integral_multithreading
+# Parallel calculation of the 2-variable integral
