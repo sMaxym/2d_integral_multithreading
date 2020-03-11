@@ -13,6 +13,7 @@ def file_reader(file_name):
     lst_2 = list()
     with open(file_name) as f:
         lst = f.read().split("\n")
+    lst.pop()
     for j in range(len(lst)):
         if j % 2 == 0:
             lst_1.append(float(lst[j]))
