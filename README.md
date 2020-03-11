@@ -13,10 +13,10 @@ Program requires config file in the specific format:<br />
 * x coordinates for the funciton domain
 * y coordinates for the funciton domain
 <br />
-`
+```json
 0.001<br/>
 0.001
 3
 -50 50
 -50 50
-`
+```
