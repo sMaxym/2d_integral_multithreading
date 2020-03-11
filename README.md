@@ -14,8 +14,4 @@ Program requires config file in the specific format:<br />
 * y coordinates for the funciton domain
 <br />
 
- 0.001
- 0.001
- 3
- -50 50
- -50 50
+`0.001 0.001 3 -50 50 -50 50`
